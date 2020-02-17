@@ -10,8 +10,6 @@ import {
   Badge
 } from "react-bootstrap";
 import { Typeahead } from "react-bootstrap-typeahead";
-import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
   const [venues, setVenues] = useState({ allowed: [], excluded: [] });
